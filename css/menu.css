@@ -1,0 +1,132 @@
+body {
+    background-image: url("../images/renga.jpeg");
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: scroll;
+    margin:0;
+    padding:0;
+}
+
+#navigation{
+    width: 100%;
+    display:flex;
+    background-color: black;
+    height: 60px;
+    position: fixed;
+    margin-top: 0px;
+    z-index: 1;
+    }
+    
+#cafename {
+    float: left;
+    font-size: 30px;
+    margin:12px;
+    font-family: "Georgia";
+    color: white;
+}
+
+#cafename a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    line-height: 100%;
+    list-style-type: none;
+}
+nav ul li {
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 60px;
+
+}
+nav ul li a {
+    border-right: 1px solid #666;
+    display: block;
+    position: relative;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    height:60px;
+}
+nav ul li a:link {
+    color:#fff;
+    text-decoration:none;
+}
+
+nav ul li a:visited {
+    color:#fff;
+    text-decoration:none;
+}
+
+nav ul li a:hover {
+    border-color: #699;
+    color:#333;
+    background-color: #699;
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 5%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:rgb(255,255,255);
+} 
+
+.container h3{
+    font-size: 35px;
+    padding-left: 4%;
+}
+
+.food{
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+.food h5{
+    font-size: 35px;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.food ul{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 0%;
+}
+
+.food li{
+    margin: 5%;
+    height: 400px;
+    width: 305
+}
+
+.food li img{
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    padding-top:3%;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+
+footer h3{
+    margin:0%;
+}
+
+footer img{
+    height: 200px;
+}

@@ -1,0 +1,202 @@
+body {
+    background-image: url("../images/renga.jpeg");
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: scroll;
+    margin:0px;
+    padding:0px;
+}
+
+#navigation{
+width: 100%;
+display:flex;
+background-color: black;
+height: 60px;
+position: fixed;
+margin-top: 0px;
+z-index: 1;
+}
+
+#cafename {
+ float: left;
+ font-size: 30px;
+ margin:12px;
+ font-family: "Georgia";
+ color: white;
+}
+
+nav ul {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+    list-style-type: none;
+}
+nav ul li {
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 60px;
+
+}
+nav ul li a {
+    border-right: 1px solid #666;
+    display: block;
+    position: relative;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    height:60px;
+}
+nav ul li a:link {
+    color:#fff;
+    text-decoration:none;
+}
+
+nav ul li a:visited {
+    color:#fff;
+    text-decoration:none;
+}
+
+nav ul li a:hover {
+    border-color: #699;
+    color:#333;
+    background-color: #699;
+    text-decoration: none;
+}
+
+.container {
+    width:100%;
+    padding-top: px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:rgb(255,255,255)
+}
+
+.catchcopy img{
+    width: 100%;
+}
+
+#catchlogo{
+    width: 550px;
+    position: absolute;
+    top: 180px;
+    left: 400px;
+}
+
+#catch{
+    color:#6FC282;
+    margin: 0px;
+    padding-left: 120px;
+    font-size: 60px;
+    position: absolute;
+    top: 360px;
+}
+
+#catch1{
+
+    margin: 0px;
+    font-size: 25px;
+    padding-left: 260px;
+    text-align: center;
+    font-family: "ヒラギノ丸ゴ Pron";
+    position: absolute;
+    top: 470px;
+}
+
+.main{
+    padding: 20px;              /* 余白指定 */
+    text-align:  center;        /* 中央寄せ */
+}
+
+.kodawari{
+    font-size: 40px;
+    font-family: "BIZ UDMincho";
+}
+
+.box{
+    margin:4%;
+    padding: 10px;
+    display:flex;
+    border: solid 2px #ffcb8a;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.box h3{
+    margin-top: 7%;
+    padding-left:3%;
+    padding-right:5%;
+    line-height: 2.5;
+    
+}
+
+.box img{
+    height:400px;
+}
+
+.box2{
+    margin:4%;
+    padding: 10px;
+    display:flex;
+    text-align:center;
+    border: solid 2px #ffcb8a;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.box2 h3{
+    margin-top: 7%;
+    padding-right:5%;
+    line-height: 2.5;
+
+}
+
+.box2 img{
+    height:400px;
+}
+
+.when{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.when ol{
+    list-style-type: none;
+}
+
+.chizu{
+    background-color: rgba(0, 0, 0, 0.4);
+    display:flex;
+    padding: 3%;
+    margin: 5%;
+    text-align: left;
+}
+
+.chizu h4{
+    font-size: 20px;
+    margin-top: 7%;
+    padding-left:5%;
+    line-height: 2.5;
+}
+
+.chizu img{
+    height: 400px;
+}
+
+footer{
+    padding-top:3%;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+
+footer h3{
+    margin:0%;
+}
+
+footer img{
+    height: 200px;
+}
